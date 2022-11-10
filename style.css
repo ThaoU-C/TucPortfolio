@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Assistant&display=swap');
+
+h1 {
+    margin-top: 0;
+    color: #24bf67;
+    font-size: 20px;
+    font-family: 'Bungee', monospace;
+    position: fixed;
+    right: 10px;
+
+}
+
+h3 {
+    text-align: center;
+    font-size: 16px;
+    color: #24bf67;
+}
+
+body {
+    font-family: 'Assistant', monospace;
+    background-color: #ececec;
+}
+
+p{
+    text-align: justify;
+    font-size: medium;
+    color: #353333;
+    display: block;
+    margin: auto;
+}
+
+
+nav {
+    position: fixed;
+    text-align: center;
+    font-size: 15px;
+    float: left;
+    margin-top: auto;
+}
+
+
+a {
+    color: #e2548f;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #f0b9a7;
+}
+
+.e-mail {
+    color: #353333;
+    font-family: 'Assistant', monospace;
+}
+
+.active{
+  color: #f0b9a7;
+}
+
+.work-img{
+  flex: 0 1 auto;
+  }
+
+.img-set{
+   /* width: 800px; */
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   margin: auto;
+   margin-top: 40px;
+   gap: 30px;
+   opacity: 96%;
+   max-width: 60%;
+}
+
+.img-set img:hover{
+    /* -webkit-transform: scale(.95);
+	transform: scale(.95); */
+    opacity: 50%;
+}
+
+.img-set2{
+    width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+ }
+
+ .work-img2{
+    flex: 0 1 auto;
+    padding-top: 60px;
+    }
+
+.bio-contain{
+  max-width: 45%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 150px;
+}
+
+.contain {
+    flex: 50%;
+    justify-content: flex-start;
+}
+
+#my-footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 20px;
+    /* background-color: #24bf67; */
+    padding: 10px;
+    font-size: medium;
+    text-align: right;
+}
+
+
+.container-video{
+    width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+.video {
+    display: flex;
+    padding-top: 250px;
+}

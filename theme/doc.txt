@@ -1,0 +1,8 @@
+Emerald: #31D177
+Key Lime: #DAE97A
+Frech Rose: #EB4D8F
+Champagne Pink: #E5D4CE
+Jet: #403E3E
+
+
+Font: 
