@@ -25,7 +25,15 @@ body {
 p{
     text-align: justify;
     font-size: medium;
-    color: #353333;
+    color: #474646;
+    display: block;
+    margin: auto;
+}
+
+p2 {
+    text-align: justify;
+    font-size: small;
+    color: #474646;
     display: block;
     margin: auto;
 }
@@ -90,7 +98,7 @@ a:hover {
 
  .work-img2{
     flex: 0 1 auto;
-    padding-top: 60px;
+    padding-top: 40px;
     }
 
 .bio-contain{
@@ -106,6 +114,19 @@ a:hover {
     justify-content: flex-start;
 }
 
+
+.container-video{
+    width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+.video {
+    display: flex;
+    padding-top: 100px;
+}
+
 #my-footer {
     position: fixed;
     bottom: 0;
@@ -118,15 +139,8 @@ a:hover {
     text-align: right;
 }
 
-
-.container-video{
-    width: 700px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: auto;
-}
-.video {
-    display: flex;
-    padding-top: 250px;
+button {
+    border: none;
+    background-color: #9c7485;
+    border-radius: 10px;
 }
