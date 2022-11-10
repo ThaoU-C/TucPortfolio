@@ -124,7 +124,7 @@ a:hover {
 }
 .video {
     display: flex;
-    padding-top: 100px;
+    padding-top: auto;
 }
 
 #my-footer {
