@@ -3,6 +3,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&family=Karla:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&family=Karla:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 
+* {
+    box-sizing: border-box;
+}
+
 h1 {
     margin-top: auto;
     color: #2e2e2e;
@@ -46,7 +50,7 @@ p{
     display: grid; 
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(1,3fr);
-    grid-gap: 1rem;
+    grid-gap: 4rem;
 }
 
 * {
@@ -74,7 +78,7 @@ p3 {
     font-weight: 00;
 }
 
-.nav-wrapper {
+/* .nav-wrapper {
     justify-content: space-between;
     align-items: center;
     margin-left: 1.5em;
@@ -111,6 +115,114 @@ a {
 a:hover {
     color: #959595;
     /* font-weight: 700; */
+/* }
+
+.active{
+    color: #959595;
+    font-weight: 400;
+} */
+
+a {
+    color: #2e2e2e;
+    text-decoration: none;
+    text-align: center;
+}
+
+a:hover {
+    color: #959595;
+    /* font-weight: 700; */
+ }
+
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #2e2e2e;
+}
+
+.my-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 1rem;
+    margin-left: 1.5rem;
+    margin-top: .55rem;
+    color: #2e2e2e;
+}
+
+.navbar-links ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar-links li {
+    list-style: none;
+}
+
+.navbar-links li a {
+   text-decoration:  none;
+   color: #2e2e2e;
+   padding: 1rem;
+   margin-right: .60rem;
+   display: block;
+}
+
+.navbar-links a:hover {
+    color: #959595;
+}
+
+.navbar-links li .active {
+    color: #959595;
+    font-weight: 400;
+}
+
+.toggle-button {
+    position: absolute;
+    top: 1.5rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+    margin-right: 1rem;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #2e2e2e;
+}
+
+@media (max-width: 600px){
+    .toggle-button {
+        display: flex;
+    }
+    .navbar-links {
+        display: none;
+        width: 100%;
+    }
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .navbar-links ul {
+        width: 100%;
+        flex-direction: column;
+    }
+    .navbar-links li {
+        text-align: center;
+    }
+    .navbar-links li a {
+        padding: .5rem 1rem;
+    }
+
+    .navbar-links.active {
+        display: flex;
+    }
 }
 
 .e-mail {
@@ -118,30 +230,9 @@ a:hover {
     font-family: 'Assistant', monospace;
 }
 
-.active{
-    color: #959595;
-    font-weight: 400;
-}
-
 .work-img{
   flex: 0 1 auto;
   }
-
-/* .img-set{
-   position: relative;
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: center;
-   margin: auto;
-   margin-top: 40px;
-   gap: 30px;
-   opacity: 96%;
-   max-width: 60%;
-} */
-
-/* .img-set img:hover{
-    opacity: 50%;
-} */
 
 .container{
     position: relative;
@@ -207,17 +298,18 @@ a:hover {
 
 
 .img-set2{
+    position: relative;
     width: 700px;
-    display: block; 
-    /* flex-wrap: wrap; */
+    display: flex; 
+    flex-wrap: wrap;
     justify-content: center;
     margin: auto;
-
+    padding: 1rem;
  }
 
  .work-img2{
-    flex: 0 1 auto;
-    padding-top: 40px;
+   width: 100%;
+   margin-top: 1rem;
     }
 
 .bio-contain{
@@ -243,6 +335,11 @@ a:hover {
     margin: auto;
     margin-top: 30px;
 }
+
+/* .container-video {
+    width: 100%;
+} */
+
 .video {
     display: flex;
     padding-top: auto;
@@ -267,18 +364,29 @@ button {
 }
 
 #wrap {
-    width: 730px;
+    width: 75;
     margin-left: auto;
     margin-right: auto;
     clear: both;
+    padding-left: .5rem;
+    padding-bottom: .5rem;
+
 }
 
 #bio-left {
     width: 350px;
     float: left;
+    padding: .5rem;
 }
 
 #bio-right{
     width: 380px;
     float: left;
+}
+
+@media (max-width: 600px) {
+    .img-set2{
+        width: 100%;
+    
+     }
 }

@@ -3,7 +3,7 @@
 
 <link rel="stylesheet" href="../../style.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+<script src="../../script.js" defer></script>
 <head>
     <meta charset="utf-8">
     <link rel="shortcut icon" type="x-icon" href="../../assets/tuc-icon.png">
@@ -12,21 +12,24 @@
 </head>
 
 <body>
- <header>
-    <h1><a href="../../"> THAO UYEN CHAU </a></h1>
- </header>
- <div class="nav-wrapper">
-  <div class="nav-container">
-   <!-- <a href="./"> home / </a> -->
-   <a class="active" href="../../"> Portfolio </a> <!-- "active" class makes only the visited tab changes its color. other tabs stays pink</a> -->
-   <a href="../../about"> About </a>
-   <a href="../../assets/ThaoUyenChau-Resume.pdf" target="_blank"> Resume </a>
-  </div>
- </div>
- <br>
+  <nav class="navbar">
+    <div class="my-name"> <a href="../../">Thao Uyen Chau</a></div>
+    <a href="#" class="toggle-button">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </a>
+    <div class="navbar-links">
+      <ul>
+        <li><a class="active" href="../../"> Portfolio </a></li>
+        <li><a href="../../about/"> About </a> </li>
+        <li><a href="../../assets/ThaoUyenChau-Resume.pdf" target="_blank"> Resume </a></li>
+      </ul>
+    </div>
+  </nav>
+
  <div class="container-video">
   <h3> Pet Panic, 2D Platformer </h3> <br>
- 
   <div class="video">
     <iframe width="680" height="460" src="https://www.youtube.com/embed/o5kpumeTWx8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
   </div>
@@ -44,77 +47,82 @@
     </div>
     <div>
       <h4>Timeline</h4>
-      <p> March - May, 2023</p>
+      <p> 2 months, March - May, 2023</p>
     </div>
- </div>
+  </div>
     <br>
-    <h4>Brief</h4>
+   <p> <b>Brief</b>
+    <br>
+    <br>
     Through this game, our team seeks to bring attention to the hardship of sheltered animals.
     Cats and dogs that are not adopted quickly would often be euthanized. Older animals, black cats, and pit bulls
     usually have the lowest adoption rates. The game mechanic reflects the challenges these animals face by making
     it more difficult to jump or decreasing the timing required to accomplish tasks. The character designs are adorable
-    and colorful to evoke a feeling of lightheartedness and fun to sharply contrast with the harsh reality confronting sheltered animals. <br>
-   <br>
-   To play the game <a href="https://namjyoongi.itch.io/pet-panic" target="blank"> <b>CLICK HERE</b> </a>
-   <br>
-   <br>
-    The process of creating the game includes
+    and colorful to evoke a feeling of lightheartedness and fun to sharply contrast with the harsh reality confronting sheltered animals.
+    <br>
+    <br>
+    To play the game <a href="https://namjyoongi.itch.io/pet-panic" target="blank"> <b>CLICK HERE</b></a>
+    <br>
+    <br>
+    The process of creating the game includes:
     <img class="work-img2" src="../../assets/game-design-process.png" alt="Image of game design process" width="650px">
-   <br>
-   <h4>Brainstorming</h4>
-   <p> My partner and I brainstormed together to come up with ideas, themes, and types of game we want to create. We were both inspired by Super Mario
-   and love our pets. Therefore, we decided to create a 2D platformer game with a pet theme but also have an impactful message.</p>
-   <h4>Analysis</h4>
-   <p>I did some research to find our target audience. According to a Petfood Industry's survey, Millenials and Gen Z are the groups that are most likely to adopt pets.
-   Therefore, I decided that our target audience will be young professionals who are active, single, and value their emotional well-being. 
-   This group is more likely to adopt pets to help reduce their stress level and spend time with their animal companions.<br>
-   After selecting the target audience, the color scheme and art style were decided. 
-  </p>
-
-   <h4>Design</h4>
-   <img class="work-img2" src="../../assets/game-sketch.jpg" alt="Game sketch image" width="650px">
-   <br>
-
-   <!-- <h4><a href="https://namjyoongi.itch.io/pet-panic"> ***Click here to play the game on Itch.io*** </a></h4> -->
-
- </div>
- <div class="img-set2">
-    <img class="work-img2" src="../../assets/game-background.png" alt="Image of level 1's background of the game" width="680px">
+    <br>
+    <br>
+    <b>Brainstorming</b>
+    <br>
+    <br>
+    My partner and I brainstormed together to come up with ideas, themes, and types of game we want to create. We were both inspired by Super Mario
+    and love our pets. Therefore, we decided to create a 2D platformer game with a pet theme but also have an impactful message.
+    <br>
+    <br>
+    <b>Analysis</b>
+    <br>
+    <br>
+    I did some research to find our target audience. According to a Petfood Industry's survey, Millenials and Gen Z are the groups that are most likely to adopt pets.
+    Therefore, I decided that our target audience will be young professionals who are active, single, and value their emotional well-being. 
+    This group is more likely to adopt pets to help reduce their stress level and spend time with their animal companions.<br>
+    After selecting the target audience, the color scheme and art style were decided. 
+    <br>
+    <br>
+    <b>Design</b>
+    <img class="work-img2" src="../../assets/game-sketch.jpg" alt="Game sketch image">
+    <br>
+    <img class="work-img2" src="../../assets/game-background.png" alt="Image of level 1's background of the game">
     <p2> <i>Game background for level 1</i></p2>
-    <img class="work-img2" src="../../assets/game-background-2.png" alt="Image of level 3's background of the game" width="680px">
+    <img class="work-img2" src="../../assets/game-background-2.png" alt="Image of level 3's background of the game">
     <p2> <i>Game background for level 2</i></p2>
-  </div>
 
-  <div class="img-set2">
-    <img class="work-img2" src="../../assets/cat idle.gif" alt="Gif image of idle position of the orange cat" width="170px">
-    <img class="work-img2" src="../../assets/cat jumping.gif" alt="Gif image of jumping position of the orange cat" width="300px">
-    <img class="work-img2" src="../../assets/Cat win.GIF" alt="Gif image of sitting and cleaning position of the orange cat" width="170px">
-    <img class="work-img2" src="../../assets/black-cat-meow.gif" alt="Gif image of idle position of the black cat" width="170px">
+     <div class="three-columns">
+      <img class="work-img2" src="../../assets/cat idle.gif" alt="Gif image of idle position of the orange cat">
+      <img class="work-img2" src="../../assets/cat-jumping-2.gif" alt="Gif image of jumping position of the orange cat">
+      <img class="work-img2" src="../../assets/Cat win.GIF" alt="Gif image of sitting and cleaning position of the orange cat">
+      <img class="work-img2" src="../../assets/black-cat-meow.gif" alt="Gif image of idle position of the black cat">
     
-    <img class="work-img2" src="../../assets/cat-paw.gif" alt="Gif image of a cat paw sliding down" width="300px">
-    <img class="work-img2" src="../../assets/walking black cat.gif" alt="Gif image of a black cat walking" width="170px">
+      <img class="work-img2" src="../../assets/cat-paw-2.gif" alt="Gif image of a cat paw sliding down">
+      <img class="work-img2" src="../../assets/walking black cat.gif" alt="Gif image of a black cat walking">
 
-  </div>
+      <img class="work-img2" src="../../assets/collar.gif" alt="Gif image of a collar">
+      <img class="work-img2" src="../../assets/heart.gif" alt="Gif image of a heart with halo">
+      <img class="work-img2" src="../../assets/box.gif" alt="gif image of a box">  
 
-  <div class="img-set2">
-    <img class="work-img2" src="../../assets/collar.gif" alt="Gif image of a collar" width="100px">
-    <img class="work-img2" src="../../assets/heart.gif" alt="Gif image of a heart with halo" width="170px">
-    <img class="work-img2" src="../../assets/box.gif" alt="gif image of a box" width="180px">
-    <img class="work-img2" src="../../assets/key.gif" alt="gif image of a key" width="150px">
-  
-
-    <img class="work-img2" src="../../assets/Dog idle new ani 2.GIF" alt="Gif image of a yellow pitpul dog in idle position" width="230px">
-    <img class="work-img2" src="../../assets/Dog walking ani.GIF" alt="gif image of a a yellow pitpul dog in walking position" width="230px">
-    <img class="work-img2" src="../../assets/dog win.GIF" alt="Gif image of a yellow pitpul dog happily shakin her head" width="230px">
-    <p2><i>Game assets in pixel art style</i></p2>
-    <br>
-    <br>
-    <p>Game flow:</p>
-    <img class="work-img-2" src="../../assets/game-flow-2.png" alt="Game flow chart" width="550px">
-
-    <h4>Testing</h4>
-    <p>We conducted three playtests with about 30 players, and I was the investigator who administered the playtests.<br>
-      <li>Alpha test:</li> Family members, close friends, and people in school were asked to playtest the game and fill out a survey regarding their experience with the game. 
+      <img class="work-img2" src="../../assets/Dog idle new ani 2.GIF" alt="Gif image of a yellow pitpul dog in idle position">
+      <img class="work-img2" src="../../assets/Dog walking ani.GIF" alt="gif image of a a yellow pitpul dog in walking position">
+      <img class="work-img2" src="../../assets/dog win.GIF" alt="Gif image of a yellow pitpul dog happily shakin her head">
+     </div>
+      <p2><i>Game assets in pixel art style</i></p2>
+      <br>
+      <br>
+      <img class="work-img-2" src="../../assets/game-flow-2.png" alt="Game flow chart" width="550px">
+      <br>
+      <br>
+      <br>
+      <p><b>Testing</b>
+      <br>
+      <br>
+      We conducted three playtests with about 30 players, and I was the investigator who administered the playtests.
+      <br>
+      <br>
+      Alpha test: Family members, close friends, and people in school were asked to playtest the game and fill out a survey regarding their experience with the game. 
       <br>
       <br>
       We received positive feedback about the game theme and graphics. Most players found the game to be fun. There were also suggestions on improving the graphic resolution
@@ -123,23 +131,25 @@
       We then implemented these suggestions in our later designs.
       <br>
       <br>
-      <li>Second playtest:</li>
+      Second playtest:
       Based on the feedback, timer’s size and location were adjusted to make it more visible.
-      Time length was increased from 25 to 35 seconds to complete the first level. The graphic resolution was also changed to be a higher quality.<br>
+      Time length was increased from 25 to 35 seconds to complete the first level. The graphic resolution was also changed to be a higher quality.
       <br>
-      <li>Beta Test:</li>
-
-      Three levels were completed on time, but there are still some minor bugs that we wish we had more time to fix.<br>
       <br>
-      <img class="work-img-2" src="../../assets/game-beta.jpg" alt="Game second playtest iamge" width="680px">
-
-      <h4>Reflections</h4>
-      <p> Through this project, I learned about the process of creating a game from scratch and how to collaborate with developers to 
-        keep track of progress to deliver the game on time. I also enjoy interacting with players, observing their reactions to my game, and
-        receiving their feedback.
-      </p>
-
-    </p>
+      Beta Test:
+      Three levels were completed on time, but there are still some minor bugs that we wish we had more time to fix.
+      <br>
+      <br>
+      <img class="work-img2" src="../../assets/game-beta.jpg" alt="Image of beta test stage with three levels of the game completed">
+      <br>
+      <br>
+      <p><b>Reflections</b>
+      <br>
+      <br>
+      Through this project, I learned about the process of creating a game from scratch and how to collaborate with developers to 
+      keep track of progress to deliver the game on time. I also enjoy interacting with players, observing their reactions to my game, and
+      receiving their feedback.
+   </p>
   </div>
 
   <div id=my-footer>

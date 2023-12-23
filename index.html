@@ -3,6 +3,7 @@
 
 <link rel="stylesheet" href="./style.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="script.js" defer></script>
 
 <head>
     <meta charset="utf-8">
@@ -12,17 +13,36 @@
 </head>
 
 <body>
- <header>
+ <!-- <header>
     <h1> THAO UYEN CHAU </h1>
- </header>
- <div class="nav-wrapper">
-  <div class="nav-container">
-   <!-- <a href="./"> home / </a> -->
-   <a class="active" href="./"> Portfolio </a> <!-- "active" class makes only the visited tab changes its color. other tabs stays pink</a> -->
-   <a href="./about"> About </a>
+ </header> -->
+
+ <nav class="navbar">
+    <div class="my-name"> Thao Uyen Chau</div>
+    <a href="#" class="toggle-button">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </a>
+    <div class="navbar-links">
+      <ul>
+        <li><a class="active" href="./"> Portfolio </a></li>
+        <li><a href="./about/"> About </a> </li>
+        <li><a href="./assets/ThaoUyenChau-Resume.pdf" target="_blank"> Resume </a></li>
+      </ul>
+    </div>
+ </nav>
+
+
+ <!-- <div class="nav-wrapper">
+  <div class="nav-container" id="myNavbar">
+   <a class="active" href="./"> Portfolio </a>
    <a href="./assets/ThaoUyenChau-Resume.pdf" target="_blank"> Resume </a>
+   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
   </div>
- </div>
+ </div> -->
  <br>
  <div class="container">
   <div class="box">
@@ -87,12 +107,12 @@
 
   <div class="box">
     <div class="img-box">
-      <a href="./mywork/sacredforest/">
-        <img src="./assets/sacred-forest-cover.png" alt="of 3D character design, 2022" width="370">
+      <a href="./mywork/graphicdesign/">
+        <img src="./assets/graphicedesign_thumbnail.jpg" alt="gradient cover for graphic design" width="370">
         <div class="text">
           <div class="content">
-            <h3> 3D environment </h3>
-            <p3> Sacred forest </p3>
+            <h3> Graphic design </h3>
+            <p3> Multiple works </p3>
           </div>
         </div>
       </a>
@@ -132,12 +152,12 @@
 
   <div class="box">
     <div class="img-box">
-      <a href="./mywork/graphicdesign/">
-        <img src="./assets/graphicedesign_thumbnail.jpg" alt="gradient cover for graphic design" width="370">
+      <a href="./mywork/sacredforest/">
+        <img src="./assets/sacred-forest-cover.png" alt="of 3D character design, 2022" width="370">
         <div class="text">
           <div class="content">
-            <h3> Graphic design </h3>
-            <p3> Multiple works </p3>
+            <h3> 3D environment </h3>
+            <p3> Sacred forest </p3>
           </div>
         </div>
       </a>
@@ -174,6 +194,17 @@
     </div>
 
   </div>
+
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myNavbar");
+      if (x.className === "nav-container") {
+        x.className += " responsive";
+      } else {
+        x.className = "nav-container";
+      }
+    }
+    </script>
 
   <!-- <div class="box">
     <div class="img-box">
