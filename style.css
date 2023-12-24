@@ -312,13 +312,6 @@ a:hover {
    margin-top: 1rem;
     }
 
-.bio-contain{
-  max-width: 100%;
-  margin: auto;
-  display: flex;
-  flex-wrap: wrap;
-  padding-top: 150px;
-}
 
 .contain {
     flex-wrap: wrap;
@@ -336,9 +329,9 @@ a:hover {
     margin-top: 30px;
 }
 
-/* .container-video {
+.container-video {
     width: 100%;
-} */
+}
 
 .video {
     display: flex;
@@ -363,12 +356,19 @@ button {
     border-radius: 10px;
 }
 
+.bio-contain{
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 75px;
+    margin: 1rem;
+  }
+
 #wrap {
     width: 75;
     margin-left: auto;
     margin-right: auto;
     clear: both;
-    padding-left: .5rem;
     padding-bottom: .5rem;
 
 }
@@ -380,7 +380,7 @@ button {
 }
 
 #bio-right{
-    width: 380px;
+    width: 350px;
     float: left;
 }
 
@@ -388,5 +388,9 @@ button {
     .img-set2{
         width: 100%;
     
+     }
+
+     .video{
+        width: 100%;
      }
 }
