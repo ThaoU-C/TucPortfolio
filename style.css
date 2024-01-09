@@ -241,9 +241,9 @@ a:hover {
     justify-content: center;
     margin: auto;
     margin-top: 40px;
-    gap: 30px;
+    gap: 40px;
     opacity: 96%;
-    max-width: 58%;
+    max-width: 75%;
 }
 
 .container .box{
