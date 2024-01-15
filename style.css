@@ -78,50 +78,6 @@ p3 {
     font-weight: 00;
 }
 
-/* .nav-wrapper {
-    justify-content: space-between;
-    align-items: center;
-    margin-left: 1.5em;
-    margin-right: auto;
-    padding-top: auto;
-    padding-bottom: 1.5em;
-    display: flex;
-    position: fixed;
-    position: -webkit-sticky;
-}
-
-.nav-container {
-    font-family: 'Open sans', monospace;
-    grid-column-gap: 1.5em;
-    grid-row-gap: 16px;
-    color: #fff;
-    grid-template-columns: auto auto auto auto;
-    grid-template-rows: auto;
-    grid-auto-columns: auto;
-    align-items: center;
-    justify-items: start;
-    display: grid;
-    font-weight: 400;
-    font-size: 16px;
-}
-
-a {
-    color: #2e2e2e;
-    text-decoration: none;
-    text-align: center;
-}
-
-
-a:hover {
-    color: #959595;
-    /* font-weight: 700; */
-/* }
-
-.active{
-    color: #959595;
-    font-weight: 400;
-} */
-
 a {
     color: #2e2e2e;
     text-decoration: none;
@@ -178,6 +134,17 @@ a:hover {
     font-weight: 400;
 }
 
+.sub-navbar {
+    font-size: 1rem;
+    font-weight: 00;
+    margin: 1rem;
+    margin-left: 1.5rem;
+    margin-top: .55rem;
+    color: #2e2e2e;
+    position: fixed;
+}
+
+
 .toggle-button {
     position: absolute;
     top: 1.5rem;
@@ -223,6 +190,10 @@ a:hover {
     .navbar-links.active {
         display: flex;
     }
+
+    .sub-navbar {
+        position: relative;
+    }
 }
 
 .e-mail {
@@ -248,9 +219,6 @@ a:hover {
 
 .container .box{
     position: relative;
-    /* width: 370px; */
-    /* background: black; */
-    /* margin: 10px; */
     box-sizing: border-box;
     display: inline-block;
 }
@@ -262,14 +230,14 @@ a:hover {
 
 .contain .box .img-box img{
     max-width: 100%;
-    transition: transform 1s;
+    transition: transform .5s;
     opacity: .6;
     
 }
 
 .container .box:hover .img-box img{
-    transform: scale(1.2);
-    opacity: 0.5;
+    transform: scale(.9);
+    opacity: 0.4;
 }
 
 .container .box .text{
