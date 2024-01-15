@@ -307,7 +307,7 @@ a:hover {
 }
 
 #my-footer {
-    position: fixed;
+    position:relative;
     bottom: 10px;
     width: 100%;
     height: 20px;
