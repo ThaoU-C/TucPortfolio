@@ -119,6 +119,7 @@ a:hover {
 
 .navbar-links li a {
    text-decoration:  none;
+   font-weight: 400;
    color: #2e2e2e;
    padding: 1rem;
    margin-right: .60rem;
@@ -126,7 +127,8 @@ a:hover {
 }
 
 .navbar-links a:hover {
-    color: #959595;
+    /* color: #959595; */
+    text-decoration: underline;
 }
 
 .navbar-links li .active {
@@ -136,7 +138,7 @@ a:hover {
 
 .sub-navbar {
     font-size: 1rem;
-    font-weight: 00;
+    font-weight: 400;
     margin: 1rem;
     margin-left: 1.5rem;
     margin-top: .55rem;
@@ -221,6 +223,7 @@ a:hover {
     position: relative;
     box-sizing: border-box;
     display: inline-block;
+
 }
 
 .container .box .img-box{
